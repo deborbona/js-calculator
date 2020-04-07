@@ -23,7 +23,7 @@ function fortune() {
 restyleButton.addEventListener("click", restyle);
 
 function restyle() {
-  var restyleOutput = get.getElementById("restyle-output").value;
+  var restyleOutput = document.getElementById("restyle-output").value;
   var colours = ["blue", "red", "green", "yellow"];
   var randomColour = colours[Math.floor(Math.random() * colours.length)];
   restyleOutput.style.color = randomColour;
