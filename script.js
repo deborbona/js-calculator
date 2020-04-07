@@ -1,5 +1,5 @@
-var halfButton = document.getElementById("half-button")
-var fortuneButton = document.getElementById("fortune-button")
+var halfButton = document.getElementById("half-button");
+var fortuneButton = document.getElementById("fortune-button");
 var restyleButton = document.getElementById("restyle-button")
 
 halfButton.addEventListener("click", halfNumber);
@@ -23,7 +23,8 @@ function fortune() {
 restyleButton.addEventListener("click", restyle);
 
 function restyle() {
+  var restyleOutput = get.getElementById("restyle-output").value;
   var colours = ["blue", "red", "green", "yellow"];
   var randomColour = colours[Math.floor(Math.random() * colours.length)];
-  restyle-output.style.color = randomColour;
+  restyleOutput.style.color = randomColour;
 }
