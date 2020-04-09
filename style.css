@@ -1,3 +1,14 @@
 body{
-  background-color: #fffff;
+  background-color: #ADDCFF;
+}
+.mainContainer {
+  background-color: #7096B3;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#Container {
+  padding: 100px;
 }
